@@ -126,10 +126,10 @@ function CanvasBlocks(props) {
 
   return (
     <div className="canvas-wrapper">
-      <h3>Available Voice Credits</h3>
+      <h3>使用可能なクレジット</h3>
       <canvas id="remaining-credits-blocks" ref={canvasRef} />
       <p>
-        {props.creditsRemaining}/{props.creditBalance} voice credits remaining
+        {props.creditsRemaining}/{props.creditBalance} クレジット残数
       </p>
 
       {/* Scoped styling */}
