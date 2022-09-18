@@ -6,7 +6,7 @@ function Home() {
   return (
     // Home page
     <>
-    <Layout>
+
       <div className="home">
         {/* Home heading */}
         <div className="home__content">
@@ -112,7 +112,7 @@ function Home() {
           }
         `}</style>
       </div>
-      </Layout>
+
     </>
   );
 }

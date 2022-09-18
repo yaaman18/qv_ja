@@ -145,11 +145,6 @@ const defaultCurrentSubject = {
 
   return (
     <>
-
-
-
-
-    <Layout>
       {/* Navigation header */}
       <Navigation
         history={{
@@ -618,7 +613,6 @@ const defaultCurrentSubject = {
 
         }
       `}</style>
-      </Layout>
     </>
   );
 }

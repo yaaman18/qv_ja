@@ -5,11 +5,11 @@ import Layout from "components/layout"; // Layout wrapper
   return (
     // Home page
     <>
-    <Layout>
+
       <div className="home">
 
       </div>
-    </Layout>
+
     </>
 
   );
