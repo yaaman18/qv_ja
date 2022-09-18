@@ -144,6 +144,11 @@ export default function Create() {
   };
 
   return (
+    <>
+
+
+
+
     <Layout>
       {/* Navigation header */}
       <Navigation
@@ -613,6 +618,7 @@ export default function Create() {
 
         }
       `}</style>
-    </Layout>
+      </Layout>
+    </>
   );
 }

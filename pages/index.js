@@ -5,6 +5,10 @@ import Layout from "components/layout"; // Layout wrapper
 export default function Home() {
   return (
     // Home page
+    <>
+
+
+
     <Layout>
       <div className="home">
         {/* Home heading */}
@@ -111,6 +115,7 @@ export default function Home() {
           }
         `}</style>
       </div>
-    </Layout>
+      </Layout>
+    </>
   );
 }
