@@ -1,7 +1,7 @@
 import Link from "next/link"; // Dynamic links
 import Layout from "components/layout"; // Layout wrapper
 
-export default function About() {
+ function About() {
   return (
     // Home page
     <>
@@ -14,3 +14,5 @@ export default function About() {
 
   );
 }
+
+export default About

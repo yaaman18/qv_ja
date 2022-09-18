@@ -31,7 +31,7 @@ const defaultCurrentSubject = {
   url: "",
 };
 
-export default function Create() {
+ function Create() {
   // Router object
   const router = useRouter();
   // Global settings object
@@ -622,3 +622,5 @@ export default function Create() {
     </>
   );
 }
+
+export default Create
