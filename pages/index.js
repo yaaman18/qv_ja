@@ -5,8 +5,7 @@ import Layout from "components/layout"; // Layout wrapper
 function Home() {
   return (
     // Home page
-    <>
-
+    <div className="">
       <div className="home">
         {/* Home heading */}
         <div className="home__content">
@@ -20,23 +19,34 @@ function Home() {
         </div>
 
         {/* Home buttons */}
-        <div className="home__cta">
-          <div className="home__cta_button">
-            <Image  src="/vectors/create_event.svg" width={100}
-      height={80} alt="Create event" />
-            <h2>イベントを作成</h2>
+        <div className="home__cta flex justify-center">
+          <div className="home__cta_button ">
+            <div className=" flex justify-center">
+              <Image className="flex justify-center"  src="/vectors/create_event.svg" width={100}
+                height={80} alt="Create event" />
+            </div>
+            <h2 className="flex justify-center">イベントを作成</h2>
             <p>こちらから二次投票の議題を作成できます</p>
             <Link href="/create">
-              <a>イベントを作成</a>
+              <a className=" felx items-center">
+                <p className="flex justify-center">イベントを作成</p></a>
             </Link>
           </div>
           <div className="home__cta_button">
-            <Image src="/vectors/place_vote.svg" width={100}
+            <div className="flex justify-center">
+
+             <Image src="/vectors/place_vote.svg" width={100}
       height={80} alt="Place vote" />
-            <h2>投票ページ</h2>
+            </div>
+
+            <h2 className="flex justify-center">投票ページ</h2>
             <p>イベント作成次に作られた秘密のコードで投票できます</p>
             <Link href="/place">
-              <a>投票ページへ</a>
+              <a>
+                <p className="flex justify-center">
+                  投票ページへ
+                </p>
+              </a>
             </Link>
           </div>
         </div>
@@ -113,7 +123,7 @@ function Home() {
         `}</style>
       </div>
 
-    </>
+    </div>
   );
 }
 
